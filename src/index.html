@@ -4,10 +4,26 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Api</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+
+    <form class="form">
+      <label>
+        <input type="text" name="search-text" placeholder="Search images...">
+      </label>
+      <button type="submit">Search</button>
+    </form>
+
+    <div class="dual-orbit-spinner visually-hidden">
+      <div class="spinner outer blue"></div>
+      <div class="spinner inner yellow"></div>
+    </div>
+
+
+    <ul class="gallery"></ul>
+
     <script type="module" src="./main.js"></script>
   </body>
 </html>
